@@ -1,0 +1,121 @@
+.upper-navbar{
+  background-color: #00a8a8;
+  height: 70px;
+  padding: 0px;
+}
+.logo{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 60px;
+}
+
+.lower-navbar{
+  background-color: #ecffff;
+}
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #00a8a8;
+  --bs-btn-border-color: #00a8a8;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #009696;
+  --bs-btn-hover-border-color: #00a8a8;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #009696;
+  --bs-btn-active-border-color: #00a8a8;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #00a8a8;
+  --bs-btn-disabled-border-color: #00a8a8;
+}
+
+.btn-outline-success{
+  --bs-btn-color: #00a8a8;
+    --bs-btn-border-color: #00a8a8;
+    --bs-btn-hover-bg: #00a8a8;
+    --bs-btn-hover-border-color: #00a8a8;
+    --bs-btn-active-bg: #00a8a8;
+    --bs-btn-active-border-color: #00a8a8;
+    --bs-btn-disabled-color: #00a8a8;
+    --bs-btn-disabled-border-color: #00a8a8;
+}
+.shop-crousel{
+  height: 400px;
+  margin: 5px ;
+  margin-right: 10px;
+}
+@media (max-width: 600px) {
+  .shop-crousel {
+    height: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+.category{
+  height: 350px;
+}
+.categ-card{
+  cursor: pointer;
+}
+.categ-card:hover{
+  box-shadow: 0 0 10px 0  #00a8a8 inset, 0 0 10px 4px  #00a8a8;
+  background-color: white;
+  color:  #00a8a8;
+}
+.category-tag {
+  border-color:  #00a8a8;
+  color: #fff;
+  box-shadow: 0 0 40px 40px  #00a8a8 inset, 0 0 0 0  #00a8a8;
+  transition: all 150ms ease-in-out;
+}
+
+.category-tag:hover {
+  box-shadow: 0 0 10px 0  #00a8a8 inset, 0 0 10px 4px  #00a8a8;
+  background-color: white;
+  color:  #00a8a8;
+}
+.actual-price{
+  font-style: italic;
+  color: #757575;
+  text-decoration: line-through;
+  margin-bottom: 0px;
+}
+.price{
+  font-family: var(--ant-font-family);
+  color: #00a8a8;
+  font-weight: 500;
+  margin-right: 5px;
+}
+.discount{
+  font-family: Roboto-Regular;
+  color: #9e9e9e;
+}
+.product-card{
+  width: 90%;
+  height: 80%;
+  cursor: pointer;
+  
+}
+.product-card:hover{
+  box-shadow: 0 0 5px 0  #00a8a8 inset, 0 0 5px 3px  #00a8a8;
+  background-color: white;
+  color:  #00a8a8;
+}
+.increment-btn{
+  background-color:#e6e6e6;
+  border: none;
+}
+.increment-btn:hover{
+  background-color: #00a8a8;
+  color: white;
+}
+.date-time{
+  color: #9e9e9e;
+}
+.cart-btn{
+  width: 90%;
+}
+.scrollable-dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
